@@ -1,0 +1,47 @@
+.node-wrapper{
+    padding: 0;
+    color:#FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.node-wrapper.level-node-1{
+    background-color: #073763;
+}
+.node-wrapper.level-node-2{
+    background-color: #6fa8dc;
+}
+.node-wrapper.level-node-3{
+    background-color: #f9cb9c;
+}
+.node-wrapper.level-node-4{
+    background-color: #ddd;
+}
+.node-content-wrapper{
+    width: 100%;
+    height: 50px;
+    padding: 0;
+}
+
+.dragable-style{
+    cursor: move;
+}
+
+.is-dragging-over{
+    background: initial;
+    box-shadow: none;
+    border: 2px dashed;
+}
+
+.is-dragging-over-disabled{
+    opacity: initial;
+}
+
+.node-content-wrapper-active,
+.node-content-wrapper.node-content-wrapper-active:hover,
+.node-content-wrapper-active.node-content-wrapper-focused,
+.node-content-wrapper-focused,
+.node-content-wrapper:hover,
+.node-content-wrapper:focus {
+    background: initial;
+    outline: 0;
+    box-shadow: none;
+}
